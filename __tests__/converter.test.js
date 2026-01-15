@@ -1,5 +1,12 @@
 import { convertToGBP, convertFromGBP } from "../src/converter.js";
 
+import { formatRateDate } from "../src/converter.js";
+
+test("formats exchange rate date correctly", () => {
+  expect(formatRateDate("2024-01-01")).toBe("Mon Jan 01 2024");
+});
+
+
 test("converts foreign currency to GBP correctly", () => {
   const result = convertToGBP(100, 10);
   expect(result).toBe(10);

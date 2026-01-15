@@ -1,4 +1,4 @@
-import { convertToGBP } from "../src/converter.js";
+import { convertToGBP, convertFromGBP } from "../src/converter.js";
 
 test("converts foreign currency to GBP correctly", () => {
   const result = convertToGBP(100, 10);

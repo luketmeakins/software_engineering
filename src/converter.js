@@ -4,3 +4,7 @@ export function convertToGBP(amount, rate) {
   }
   return amount / rate;
 }
+export function convertFromGBP(amount, rate) {
+  return amount / rate;
+}
+

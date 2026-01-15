@@ -1,0 +1,10 @@
+{
+  "name": "currency-converter",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

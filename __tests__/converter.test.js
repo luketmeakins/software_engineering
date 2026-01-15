@@ -12,3 +12,7 @@ test("throws an error for negative amounts", () => {
 test("throws an error for zero exchange rate", () => {
   expect(() => convertToGBP(100, 0)).toThrow();
 });
+test("GBP converts to foreign currency", () => {
+  expect(convertFromGBP(100, 2)).toBe(50);
+});
+
